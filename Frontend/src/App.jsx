@@ -1,12 +1,16 @@
-import Home from "./pages/Home";
+// import Header from "./components/page/header";
+import Footer from "./components/page/fother";
+
 import './App.css'
+
 
 function App() {
 
 
   return (
     <>
-    <Home />
+    < Footer/> 
+    {/* <Header /> */}
     </>
   )
 }
