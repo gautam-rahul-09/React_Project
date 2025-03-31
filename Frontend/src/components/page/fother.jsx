@@ -2,11 +2,12 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-900 text-gray-300 py-4 w-full fixed bottom-0 left-0">
+    <footer className="bg-gray-900 text-gray-300 py-4 w-full">
       <div className="px-6 md:px-10 flex flex-col md:flex-row justify-between w-full">
+        
         {/* Left Section */}
         <div className="mb-4 md:mb-0">
-          <h2 className="text-red-500 text-xl font-semibold flex items-center space-x-2">
+          <h2 className="text-red-500 text-xl font-semibold flex items-center">
             <span>⚙️</span> <span>Admin Panel</span>
           </h2>
           <p className="text-red-400 mt-2">Smart Dhopa Online Laundry Service</p>
@@ -16,7 +17,7 @@ const Footer = () => {
 
         {/* Center Links */}
         <div className="mb-4 md:mb-0">
-          <ul className="space-y-2">
+          <ul>
             <FooterLink text="Get Help" />
             <FooterLink text="Read FAQ" />
             <FooterLink text="View All Templates" />
@@ -26,7 +27,7 @@ const Footer = () => {
 
         {/* Right Links */}
         <div>
-          <ul className="space-y-2">
+          <ul>
             <FooterLink text="Privacy Policy" />
             <FooterLink text="Cookie Policy" />
             <FooterLink text="Terms of Use" />
@@ -36,7 +37,7 @@ const Footer = () => {
       </div>
 
       {/* Bottom Section */}
-      <div className="text-center text-gray-500 mt-4 text-sm w-full">
+      <div className="text-center text-gray-500 mt-4 text-sm">
         Copyright © 2020 Developed by Prionto Abdullah
       </div>
     </footer>
